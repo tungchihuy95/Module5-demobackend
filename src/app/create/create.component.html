@@ -1,0 +1,7 @@
+<h1>Tao moi User</h1>
+<form [formGroup]="newUserForm" (ngSubmit)="createNewUser()">
+  <input type="text" formControlName="name" id="name">
+  <input type="text" formControlName="numberPhone" id="phone">
+  <input type="text" formControlName="email" id="email">
+  <button type="submit">Tao moi</button>
+</form>

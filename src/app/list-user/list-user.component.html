@@ -1,0 +1,15 @@
+<h3>List User</h3>
+<table>
+  <tr>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Phone Number</td>
+    <td>Email</td>
+  </tr>
+  <tr *ngFor="let u of listUser">
+    <td>{{u.id}}</td>
+    <td>{{u.name}}</td>
+    <td>{{u.numberPhone}}</td>
+    <td>{{u.email}}</td>
+  </tr>
+</table>
